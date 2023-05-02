@@ -7,8 +7,8 @@
 #### serial library
 ## Usage
 #### Connect your CNC machine to your computer using a serial connection.
-#### Update the SERIAL_PORT and BAUD_RATE variables to match your CNC machine's serial connection settings.
-#### Run the script using python cnc_speech_control.py.
+#### Update the `SERIAL_PORT` and `BAUD_RATE` variables to match your CNC machine's serial connection settings.
+#### Run the script using python `cnc_speech_control.py`
 #### When prompted, speak a command into the microphone.
 #### The script will attempt to match your spoken command to a pattern and generate the corresponding G-code command.
 #### The G-code command will be sent to the CNC machine over the serial connection.
